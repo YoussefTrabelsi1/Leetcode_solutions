@@ -11,7 +11,6 @@ def twoSum( nums, target):
         else:
             Map[num]=i
         
-nums = [2,7,11,15]
-target = 9
+assert twoSum([2,7,11,15], 9)==[0, 1]
 
-assert twoSum(nums, target)==[0, 1]
+assert twoSum([3,2,4], 6)==[1,2]  
