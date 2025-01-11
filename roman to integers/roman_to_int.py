@@ -23,3 +23,7 @@ def romanToInt(s: str) -> int:
         prev_value = current_value
 
     return total
+
+print(romanToInt("III"))
+print(romanToInt("LVIII"))
+print(romanToInt("MCMXCIV"))
