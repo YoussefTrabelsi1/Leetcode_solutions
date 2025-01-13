@@ -1,8 +1,22 @@
 def isValid(s):
 
-    i=0
-    isvalid=True
-    while i<len(s):
-        pass
+    bracket_map = {')': '(', '}': '{', ']': '['}
+    stack = []
 
-    return 0
+    for char in s:
+        if char not in bracket_map:
+            stack.append(char)
+        else:
+            top_element=stack.pop() if stack else "#"
+
+            if top_element!=bracket_map[char]:
+                return False
+            
+            
+    return not stack
+
+
+print(isValid("()"))
+print(isValid("()[]{}"))
+print(isValid("(]"))
+print(isValid("([])"))
