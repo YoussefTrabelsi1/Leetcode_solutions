@@ -12,3 +12,9 @@ def removeDuplicates(nums):
     
     # Return the number of unique elements
     return i + 1
+
+
+nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+k = removeDuplicates(nums)
+print(k)  # Output: 5
+print(nums[:k])  # Output: [0, 1, 2, 3, 4]
