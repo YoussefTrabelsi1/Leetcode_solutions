@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 
-def groupAnagrams(self, strs):
+def groupAnagrams( strs):
         
         c_map=defaultdict(list)
         for string in strs:
