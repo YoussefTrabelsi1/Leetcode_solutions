@@ -23,3 +23,7 @@ def letterCombinations(digits):
 digits = "23"
 
 print(letterCombinations(digits))
+
+digits = "232"
+
+print(letterCombinations(digits))
