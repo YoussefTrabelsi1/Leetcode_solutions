@@ -16,4 +16,4 @@ def isPalindrome(x):
 print(isPalindrome(121))
 print(isPalindrome(-121))
 print(isPalindrome(10))
-
+print(isPalindrome(110))
