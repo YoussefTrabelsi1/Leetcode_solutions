@@ -1,5 +1,5 @@
 class Solution:
-    def threeSum(self, nums):
+    def threeSumPointer(self, nums):
         nums.sort()
 
         res=[]
