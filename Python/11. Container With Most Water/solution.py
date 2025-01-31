@@ -1,22 +1,17 @@
-def maxArea(height):
+def maxArea(heights):
     """
     :type height: List[int]
     :rtype: int
     """
-    left = 0
-    right = len(height) - 1
-    max_area = 0
-
-    while left < right:
-        # Calculate the area formed by the two pointers
-        max_area = max(max_area, min(height[left], height[right]) * (right - left))
+    l,r=0,len(heights)-1
+    max_area=0
+    while l<r:
         
-        # Move the pointer with the smaller height inward
-        if height[left] < height[right]:
-            left += 1
+        max_area=max(max_area,(r-l)*min(heights[l],heights[r]))
+        if heights[l]<heights[r]:
+            l+=1
         else:
-            right -= 1
-
+            r-=1
     return max_area
 
 # Test cases
