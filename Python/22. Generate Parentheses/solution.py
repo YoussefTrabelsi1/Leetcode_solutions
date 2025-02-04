@@ -1,5 +1,4 @@
-class Solution:
-    
+class Solution:  
     def generateParenthesis(self, n: int):
         stack=[]
         res=[]
