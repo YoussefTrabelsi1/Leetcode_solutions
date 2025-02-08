@@ -1,4 +1,4 @@
-# Definition for a singly linked list node
+# Definition for a singly linked list node 
 class ListNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
