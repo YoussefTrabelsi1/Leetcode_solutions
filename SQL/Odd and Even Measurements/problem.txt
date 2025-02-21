@@ -10,7 +10,7 @@ Within a day, measurements taken at 1st, 3rd, and 5th times are considered odd-n
 Effective April 15th, 2023, the question and solution for this question have been revised.
 
 measurements Table:
-Column Name	Type
+Column Name	Type 
 measurement_id	integer
 measurement_value	decimal
 measurement_time	datetime
