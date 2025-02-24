@@ -5,4 +5,4 @@ SELECT
 FROM pharmacy_sales 
 WHERE total_sales-cogs<=0
 GROUP BY manufacturer
-ORDER BY total_loss DESC
+ORDER BY total_loss DESC 
