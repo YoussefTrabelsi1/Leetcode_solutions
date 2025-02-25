@@ -1,15 +1,11 @@
-def twoSum( nums, target):
+def twoSum(nums, target):
     
-    Map={}
-
+    map={}
     for i,num in enumerate(nums):
+        if target-num in map:
+            return [map[target-num],i]
+        map[num]=i
 
-        diff=target-num
-
-        if diff in Map:
-            return [Map[diff],i]
-        else:
-            Map[num]=i
         
 print(twoSum([2,7,11,15], 9))
 
