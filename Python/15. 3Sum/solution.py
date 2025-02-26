@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-
 class Solution:
     def threeSumPointer(self, nums):
         nums.sort()
