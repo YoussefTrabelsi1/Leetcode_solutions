@@ -10,7 +10,6 @@ def longestCommonPrefix(strs):
             prefix=prefix[:-1]
             if not prefix:
                 return ""
-    
     return prefix
 
 # Test Cases
