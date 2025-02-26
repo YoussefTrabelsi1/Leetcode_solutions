@@ -21,7 +21,6 @@ def lengthOfLongestSubstring(s):
     return max_length
 
 
-
 s = "abcabcbb"
 
 print(lengthOfLongestSubstring(s))
