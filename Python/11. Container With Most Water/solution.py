@@ -3,6 +3,7 @@ def maxArea(heights):
     :type height: List[int]
     :rtype: int
     """
+    
     l,r=0,len(heights)-1
     max_area=0
     while l<r:
