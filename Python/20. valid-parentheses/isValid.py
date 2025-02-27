@@ -2,7 +2,6 @@ def isValid(s):
 
     bracket_map = {')': '(', '}': '{', ']': '['}
     stack = []
-
     for char in s:
         if char not in bracket_map:
             stack.append(char)
