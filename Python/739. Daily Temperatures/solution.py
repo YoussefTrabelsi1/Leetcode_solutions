@@ -16,9 +16,9 @@ class Solution:
         return res
     
     def dailyTemperatures_dynamic(self, temperatures):
+        
         n = len(temperatures)
         res = [0] * n
-
         for i in range(n - 2, -1, -1):
             j = i + 1
             while j < n and temperatures[j] <= temperatures[i]:
