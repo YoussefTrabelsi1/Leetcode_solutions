@@ -6,5 +6,5 @@ SELECT
     ORDER BY tweet_date
     ROWS BETWEEN 2 PRECEDING AND CURRENT ROW)
     ,2) AS rolling_avg_3d
-FROM TWEETS
+FROM TWEETS;
   
