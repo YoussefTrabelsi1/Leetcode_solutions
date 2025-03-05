@@ -9,4 +9,4 @@ WITH calls_per_holder AS (
 
 SELECT 
   count(policy_holder_count) AS policy_holder_count
-FROM calls_per_holder
+FROM calls_per_holder;
