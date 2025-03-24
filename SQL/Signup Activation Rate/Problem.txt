@@ -33,7 +33,6 @@ text_id	email_id	signup_action
 6920	236	Not Confirmed
 6994	236	Confirmed
 'Confirmed' in signup_action means the user has activated their account and successfully completed the signup process.
-
 Example Output:
 confirm_rate
 0.67
