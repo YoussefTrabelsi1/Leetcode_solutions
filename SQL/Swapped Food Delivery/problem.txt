@@ -5,7 +5,6 @@ Recently, Zomato encountered an issue with their delivery system. Due to an erro
 If the last item has an odd order ID, it should remain as the last item in the corrected data. For example, if the last item is Order ID 7 Tandoori Chicken, then it should remain as Order ID 7 in the corrected data.
 
 In the results, return the correct pairs of order IDs and items.
-
 orders Schema:
 column_name	type	description
 order_id	integer	The ID of each Zomato order.
