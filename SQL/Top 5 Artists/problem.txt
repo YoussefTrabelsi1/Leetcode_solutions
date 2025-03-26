@@ -4,6 +4,7 @@ Write a query to find the top 5 artists whose songs appear most frequently in th
  
 If two or more artists have the same number of song appearances, they should be assigned the same ranking, and the rank numbers should be continuous (i.e. 1, 2, 2, 3, 4, 5). If you've never seen a rank order like this before, do the rank window function tutorial.
 
+
 artists Table:
 Column Name	Type
 artist_id	integer
