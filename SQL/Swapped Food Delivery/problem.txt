@@ -12,6 +12,7 @@ item	string	The name of the food item in each order.
 orders Example Input:
 Here's a sample of the initial incorrect data:
 
+
 order_id	item
 1	Chow Mein
 2	Pizza
