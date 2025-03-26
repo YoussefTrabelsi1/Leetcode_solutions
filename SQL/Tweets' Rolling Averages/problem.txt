@@ -7,7 +7,6 @@ Notes:
 A rolling average, also known as a moving average or running mean is a time-series technique that examines trends in data over a specified period of time.
 In this case, we want to determine how the tweet count for each user changes over a 3-day period.
 Effective April 7th, 2023, the problem statement, solution and hints for this question have been revised.
-
 tweets Table:
 Column Name	Type
 user_id	integer
