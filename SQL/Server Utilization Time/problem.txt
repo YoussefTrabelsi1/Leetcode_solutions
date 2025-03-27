@@ -23,4 +23,5 @@ total_uptime_days
 Explanation
 In the example output, the combined uptime of all the servers (from each start time to stop time) totals 21 full days.
 
+
 The dataset you are querying against may have different input & output - this is just an example!
