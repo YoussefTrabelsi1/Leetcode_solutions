@@ -105,7 +105,7 @@ class Solution:
         return res
 
 class Solution:
-    def solveNQueens(self, n: int) -> List[List[str]]:
+    def solveNQueens(self, n: int):
         col = 0
         posDiag = 0
         negDiag = 0
