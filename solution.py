@@ -1,5 +1,5 @@
 class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
+    def rotate(self, matrix) -> None:
         n = len(matrix)
         rotated = [[0] * n for _ in range(n)]
         
