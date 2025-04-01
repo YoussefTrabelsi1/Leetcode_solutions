@@ -12,7 +12,7 @@ class Solution:
                 matrix[i][j] = rotated[i][j]
 
 class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
+    def rotate(self, matrix) -> None:
         l, r = 0, len(matrix) - 1
         while l < r:
             for i in range(r - l):
@@ -36,7 +36,7 @@ class Solution:
             l += 1
 
 class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
+    def rotate(self, matrix) -> None:
         # Reverse the matrix vertically
         matrix.reverse()
 
