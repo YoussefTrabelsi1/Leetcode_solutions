@@ -5,8 +5,11 @@
 #         self.left = left
 #         self.right = right
 
+import collections
+
+
 class Solution:
-    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+    def levelOrder(self, root):
         res = []
 
         def dfs(node, depth):
@@ -31,7 +34,7 @@ class Solution:
 #         self.right = right
 
 class Solution:
-    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+    def levelOrder(self, root):
         res = []
 
         q = collections.deque()
