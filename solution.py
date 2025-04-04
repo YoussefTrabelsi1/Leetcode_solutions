@@ -98,7 +98,7 @@ class TrieNode:
         cur.idx = i
 
 class Solution:
-    def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
+    def findWords(self, board, words):
         root = TrieNode()
         for i in range(len(words)):
             root.addWord(words[i], i)
