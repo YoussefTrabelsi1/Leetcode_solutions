@@ -49,7 +49,7 @@ class Solution:
         return low
 
 class Solution:
-    def findDuplicate(self, nums: List[int]) -> int:
+    def findDuplicate(self, nums) -> int:
         n = len(nums)
         res = 0
         for b in range(32):
@@ -68,7 +68,7 @@ class Solution:
         return res
 
 class Solution:
-    def findDuplicate(self, nums: List[int]) -> int:
+    def findDuplicate(self, nums) -> int:
         slow, fast = 0, 0
         while True:
             slow = nums[slow]
