@@ -7,7 +7,7 @@ class Interval(object):
 """
 
 class Solution:
-    def canAttendMeetings(self, intervals: List[Interval]) -> bool:
+    def canAttendMeetings(self, intervals) -> bool:
         n = len(intervals)
         for i in range(n):
             A = intervals[i]
