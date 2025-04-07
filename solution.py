@@ -16,3 +16,15 @@ class Solution:
                 if min(A.end, B.end) > max(A.start, B.start):
                     return False
         return True
+
+class Solution:
+    def canAttendMeetings(self, intervals) -> bool:
+        intervals.sort(key=lambda i: i.start)
+
+        for i in range(1, len(intervals)):
+            i1 = intervals[i - 1]
+            i2 = intervals[i]
+
+            if i1.end > i2.start:
+                return False
+        return True
