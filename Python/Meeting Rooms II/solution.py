@@ -6,6 +6,9 @@ class Interval(object):
         self.end = end
 """
 
+import heapq
+
+
 class Solution:
     def minMeetingRooms(self, intervals) -> int:
         intervals.sort(key=lambda x: x.start)
