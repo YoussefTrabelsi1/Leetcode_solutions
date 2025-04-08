@@ -6,6 +6,7 @@ class Interval(object):
         self.end = end
 """
 
+from collections import defaultdict
 import heapq
 
 
@@ -20,3 +21,16 @@ class Solution:
             heapq.heappush(min_heap, interval.end)
 
         return len(min_heap)
+
+class Solution:
+    def minMeetingRooms(self, intervals) -> int:
+        mp = defaultdict(int)
+        for i in intervals:
+            mp[i.start] += 1
+            mp[i.end] -= 1
+        prev = 0
+        res = 0
+        for i in sorted(mp.keys()):
+            prev += mp[i]
+            res = max(res, prev)
+        return res
