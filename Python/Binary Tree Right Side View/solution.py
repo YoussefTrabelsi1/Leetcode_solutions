@@ -24,6 +24,7 @@ class Solution:
         dfs(root, 0)
         return res
 
+from collections import deque
 
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
