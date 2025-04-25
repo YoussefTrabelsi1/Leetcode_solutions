@@ -1,3 +1,5 @@
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -18,6 +20,10 @@ class Solution:
             return res
 
         return dfs(root, root.val)
+
+#Breadth First Search
+
+from collections import deque
 
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
