@@ -23,3 +23,19 @@ class Solution:
         dfs(root)
         arr.sort()
         return arr[k - 1]
+
+
+class Solution:
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        arr = []
+
+        def dfs(node):
+            if not node:
+                return
+            
+            dfs(node.left)
+            arr.append(node.val)
+            dfs(node.right)
+        
+        dfs(root)
+        return arr[k - 1]
