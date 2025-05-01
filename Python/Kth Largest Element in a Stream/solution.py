@@ -13,6 +13,8 @@ class KthLargest:
         return self.arr[len(self.arr) - self.k]
 
 
+#Min-Heap
+
 import heapq
 
 class KthLargest:
