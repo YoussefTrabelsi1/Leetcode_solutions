@@ -1,4 +1,3 @@
-import heapq
 from typing import List
 
 
@@ -12,6 +11,9 @@ class KthLargest:
         self.arr.append(val)
         self.arr.sort()
         return self.arr[len(self.arr) - self.k]
+
+
+import heapq
 
 class KthLargest:
     
