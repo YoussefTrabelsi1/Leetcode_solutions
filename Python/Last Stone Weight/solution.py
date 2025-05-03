@@ -38,6 +38,7 @@ class Solution:
 
         return stones[0] if n > 0 else 0
 
+
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         stones = [-s for s in stones]
