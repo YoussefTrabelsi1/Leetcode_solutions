@@ -1,3 +1,6 @@
+import heapq
+
+
 class MedianFinder:
     def __init__(self):
         # two heaps, large, small, minheap, maxheap
