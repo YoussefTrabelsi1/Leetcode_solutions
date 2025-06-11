@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution:
-    def rob(self, nums: list[int]) -> int:
+    def rob(self, nums: List[int]) -> int:
         
         def dfs(i):
             if i >= len(nums):
