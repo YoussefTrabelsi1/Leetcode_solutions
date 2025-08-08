@@ -1,0 +1,58 @@
+Directories containing solution.py:
+Python\3Sum
+Python\Add Two Numbers
+Python\Balanced Binary Tree
+Python\Binary Tree Level Order Traversal
+Python\Binary Tree Maximum Path Sum
+Python\Binary Tree Right Side View
+Python\Car Fleet
+Python\Construct Binary Tree from Preorder and Inorder Traversal
+Python\Container With Most Water
+Python\Copy Linked List with Random Pointer
+Python\Count Good Nodes in Binary Tree
+Python\Daily Temperatures
+Python\Delete Node in a Linked List
+Python\Design Add and Search Word Data Structure
+Python\Encode and Decode Strings
+Python\Evaluate Reverse Polish Notation
+Python\Find Minimum in Rotated Sorted Array
+Python\Find the Duplicate Number
+Python\Generate Parentheses
+Python\Group Anagrams
+Python\Implement Trie (Prefix Tree)
+Python\Integer to Roman
+Python\Invert Binary Tree
+Python\K Closest Points to Origin
+Python\Koko Eating Bananas
+Python\Kth Largest Element in a Stream
+Python\Kth Largest Element in an Array
+Python\Kth Smallest Integer in BST
+Python\Last Stone Weight
+Python\Linked List Cycle Detection
+Python\Longest Consecutive Sequence
+Python\longest substring without repeating characters
+Python\Lowest Common Ancestor in Binary Search Tree
+Python\LRU Cache
+Python\Median of Two Sorted Arrays
+Python\Meeting Rooms
+Python\Meeting Rooms II
+Python\Merge K Sorted Linked Lists
+Python\Merge Two Sorted Linked Lists
+Python\Min Stack
+Python\N queen
+Python\Number of Islands
+Python\Product of Array Except Self
+Python\Remove Node From End of Linked List
+Python\Reorder Linked List
+Python\Reverse Linked List
+Python\Reverse Nodes in K-Group
+Python\Same Binary Tree
+Python\Search in Rotated Sorted Array
+Python\Serialize and Deserialize Binary Tree
+Python\Subtree of Another Tree
+Python\Trapping Rain Water
+Python\Unique Paths
+Python\Valid Binary Search Tree
+Python\Valid Sudoku
+Python\Word Search II
+Python\Zigzag Conversion
