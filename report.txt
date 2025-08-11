@@ -1,6 +1,5 @@
 Directories containing solution.py:
 Python\3Sum
-Python\Add Two Numbers
 Python\Balanced Binary Tree
 Python\Binary Tree Level Order Traversal
 Python\Binary Tree Maximum Path Sum
