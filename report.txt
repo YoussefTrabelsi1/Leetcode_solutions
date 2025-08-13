@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Binary Tree Level Order Traversal
 Python\Binary Tree Maximum Path Sum
 Python\Binary Tree Right Side View
 Python\Car Fleet
