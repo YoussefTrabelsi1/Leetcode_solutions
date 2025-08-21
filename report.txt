@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Container With Most Water
 Python\Copy Linked List with Random Pointer
 Python\Count Good Nodes in Binary Tree
 Python\Daily Temperatures
