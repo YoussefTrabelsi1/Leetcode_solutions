@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Count Good Nodes in Binary Tree
 Python\Daily Temperatures
 Python\Delete Node in a Linked List
 Python\Design Add and Search Word Data Structure
