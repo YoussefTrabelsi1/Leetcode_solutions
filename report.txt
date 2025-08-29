@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Design Add and Search Word Data Structure
 Python\Encode and Decode Strings
 Python\Evaluate Reverse Polish Notation
 Python\Find Minimum in Rotated Sorted Array
