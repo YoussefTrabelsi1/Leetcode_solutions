@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Encode and Decode Strings
 Python\Evaluate Reverse Polish Notation
 Python\Find Minimum in Rotated Sorted Array
 Python\Find the Duplicate Number
