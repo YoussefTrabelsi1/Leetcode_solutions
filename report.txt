@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Find the Duplicate Number
 Python\Generate Parentheses
 Python\Group Anagrams
 Python\Implement Trie (Prefix Tree)
