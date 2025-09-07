@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Generate Parentheses
 Python\Group Anagrams
 Python\Implement Trie (Prefix Tree)
 Python\Integer to Roman
