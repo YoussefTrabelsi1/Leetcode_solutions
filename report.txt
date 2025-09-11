@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Implement Trie (Prefix Tree)
 Python\Integer to Roman
 Python\Invert Binary Tree
 Python\K Closest Points to Origin
