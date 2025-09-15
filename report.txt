@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Invert Binary Tree
 Python\K Closest Points to Origin
 Python\Koko Eating Bananas
 Python\Kth Largest Element in a Stream
