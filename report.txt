@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Koko Eating Bananas
 Python\Kth Largest Element in a Stream
 Python\Kth Largest Element in an Array
 Python\Kth Smallest Integer in BST
