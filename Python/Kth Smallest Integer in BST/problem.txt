@@ -14,7 +14,6 @@ Output: 1
 Example 2:
 
 
-
 Input: root = [4,3,5,2,null], k = 4
 
 Output: 5
