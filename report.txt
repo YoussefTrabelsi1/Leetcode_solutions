@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Kth Largest Element in an Array
 Python\Kth Smallest Integer in BST
 Python\Last Stone Weight
 Python\Linked List Cycle Detection
