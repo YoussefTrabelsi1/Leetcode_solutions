@@ -53,3 +53,9 @@ def kth_smallest(root: Optional[TreeNode], k: int) -> int:
 
 if __name__ == "__main__":
     # Example 1
+    root = build_tree([2, 1, 3])
+    print(kth_smallest(root, 1))  # Expected: 1
+
+    # Example 2
+    root = build_tree([4, 3, 5, 2, None])
+    print(kth_smallest(root, 4))  # Expected: 5
