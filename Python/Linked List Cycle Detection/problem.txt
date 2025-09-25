@@ -9,7 +9,6 @@ Note: index is not given to you as a parameter.
 Example 1:
 
 
-
 Input: head = [1,2,3,4], index = 1
 
 Output: true
