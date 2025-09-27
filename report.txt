@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Linked List Cycle Detection
 Python\Longest Consecutive Sequence
 Python\longest substring without repeating characters
 Python\Lowest Common Ancestor in Binary Search Tree
