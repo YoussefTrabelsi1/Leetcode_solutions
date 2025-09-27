@@ -5,7 +5,7 @@ def scan_directories(base_dir):
 
     # Walk through all subdirectories
     for root, dirs, files in os.walk(base_dir):
-        if 'solution.py' in files:
+        if 'solution.py' in files or 'Solution.py' in files:
             found_dirs.append(root)
 
     return found_dirs
