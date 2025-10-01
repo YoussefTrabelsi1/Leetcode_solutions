@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\longest substring without repeating characters
 Python\Lowest Common Ancestor in Binary Search Tree
 Python\LRU Cache
 Python\Median of Two Sorted Arrays
