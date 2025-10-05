@@ -1,35 +1,29 @@
-# delete_solution_files.py
-import argparse
+# delete_one_solution.py
 from pathlib import Path
 
-SEPARATOR_LINE = "-------------------"
+HEADER = "Directories containing solution.py"
 
 def parse_report(report_path: Path) -> list[Path]:
     lines = report_path.read_text(encoding="utf-8").splitlines()
-    dirs = []
-    capture = False
-    for line in lines:
-        line = line.strip()
+    dirs, capture = [], False
+    for raw in lines:
+        line = raw.strip()
         if not line:
             continue
-        if line.startswith("Directories containing solution.py"):
-            capture = True
+        if not capture:
+            if line.startswith(HEADER):
+                capture = True
             continue
-        if capture:
-            if line.startswith(SEPARATOR_LINE):
-                break
-            # Normalize Windows-style backslashes to Path format
-            dirs.append(Path(line.replace("\\", "/")))
+        # After the header, every non-empty line is a path (e.g., "Python\Foo Bar")
+        dirs.append(Path(line.replace("\\", "/")))
     return dirs
 
-def delete_solution_files(repo_root: Path, dirs: list[Path]) -> tuple[int, int]:
-    deleted = 0
-    missing = 0
+def delete_first_solution(repo_root: Path, dirs: list[Path]) -> bool:
     repo_root = repo_root.resolve()
-
     for rel_dir in dirs:
         target = (repo_root / rel_dir / "solution.py").resolve()
-        # Safety: ensure we never step outside the repo_root
+
+        # Safety: ensure target is inside repo_root
         try:
             target.relative_to(repo_root)
         except ValueError:
@@ -39,34 +33,33 @@ def delete_solution_files(repo_root: Path, dirs: list[Path]) -> tuple[int, int]:
         if target.exists():
             try:
                 target.unlink()
-                deleted += 1
                 print(f"[OK] Deleted: {target}")
+                return True
             except PermissionError:
                 print(f"[ERR] Permission denied: {target}")
+                return False
             except OSError as e:
                 print(f"[ERR] Could not delete {target}: {e}")
-        else:
-            missing += 1
-            print(f"[MISS] Not found: {target}")
-    return deleted, missing
+                return False
+    print("[DONE] No solution.py found for any listed directory.")
+    return False
 
 def main():
-    ap = argparse.ArgumentParser(description="Delete solution.py files listed in report.txt")
-    ap.add_argument("--report", type=Path, default=Path("report.txt"),
-                    help="Path to report.txt (default: report.txt)")
-    ap.add_argument("--repo-root", type=Path, default=Path("."),
-                    help="Path to the repository root containing the listed folders (default: .)")
-    args = ap.parse_args()
+    repo_root = Path(".")
+    report_path = Path("report.txt")
 
-    if not args.report.exists():
-        raise SystemExit(f"report file not found: {args.report}")
+    if not report_path.exists():
+        raise SystemExit("report.txt not found in the current directory.")
 
-    dirs = parse_report(args.report)
+    dirs = parse_report(report_path)
     if not dirs:
-        raise SystemExit("No directories parsed from report.txt. Check the header/separator formatting.")
+        raise SystemExit("No directories parsed from report.txt. Check the header line.")
 
-    deleted, missing = delete_solution_files(args.repo_root, dirs)
-    print(f"\nSummary: deleted={deleted}, missing={missing}, total_listed={len(dirs)}")
+    deleted = delete_first_solution(repo_root, dirs)
+    if deleted:
+        print("Summary: 1 file deleted.")
+    else:
+        print("Summary: 0 files deleted.")
 
 if __name__ == "__main__":
     main()
