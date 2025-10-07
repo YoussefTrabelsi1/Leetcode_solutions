@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Median of Two Sorted Arrays
 Python\Meeting Rooms
 Python\Meeting Rooms II
 Python\Merge K Sorted Linked Lists
