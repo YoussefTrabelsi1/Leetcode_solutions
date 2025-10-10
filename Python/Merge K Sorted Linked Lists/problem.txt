@@ -2,7 +2,7 @@ You are given an array of k linked lists lists, where each list is sorted in asc
 
 Return the sorted linked list that is the result of merging all of the individual linked lists.
 
-Example 1:
+Example 1: 
 
 Input: lists = [[1,2,4],[1,3,5],[3,6]]
 
