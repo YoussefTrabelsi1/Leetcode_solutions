@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Merge K Sorted Linked Lists
 Python\Merge Two Sorted Linked Lists
 Python\Min Stack
 Python\N queen
