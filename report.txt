@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Min Stack
 Python\N queen
 Python\Number of Islands
 Python\Product of Array Except Self
