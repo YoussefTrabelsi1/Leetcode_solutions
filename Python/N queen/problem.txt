@@ -1,4 +1,3 @@
-N-Queens
 The n-queens puzzle is the problem of placing n queens on an n x n chessboard so that no two queens can attack each other.
 
 A queen in a chessboard can attack horizontally, vertically, and diagonally.
