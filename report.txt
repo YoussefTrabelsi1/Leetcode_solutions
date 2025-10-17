@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Number of Islands
 Python\Product of Array Except Self
 Python\Remove Node From End of Linked List
 Python\Reorder Linked List
