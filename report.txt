@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Product of Array Except Self
 Python\Remove Node From End of Linked List
 Python\Reorder Linked List
 Python\Reverse Linked List
