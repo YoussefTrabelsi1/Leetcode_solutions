@@ -23,7 +23,7 @@ Example 2:
 
 Input: head = [2,4,6,8,10]
 
-Output: [2,10,4,8,6]
+Output: [2,10,4,8,6] 
 Constraints:
 
 1 <= Length of the list <= 1000.
