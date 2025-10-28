@@ -9,7 +9,7 @@ Example 2:
 
 Input: head = []
 
-Output: []
+Output: [] 
 Constraints:
 
 0 <= The length of the list <= 1000.
