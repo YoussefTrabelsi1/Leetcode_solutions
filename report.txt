@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Reverse Linked List
 Python\Reverse Nodes in K-Group
 Python\Same Binary Tree
 Python\Search in Rotated Sorted Array
