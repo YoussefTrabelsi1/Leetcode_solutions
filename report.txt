@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Reverse Nodes in K-Group
 Python\Same Binary Tree
 Python\Search in Rotated Sorted Array
 Python\Serialize and Deserialize Binary Tree
