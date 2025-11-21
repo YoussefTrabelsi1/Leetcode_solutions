@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Search in Rotated Sorted Array
 Python\Serialize and Deserialize Binary Tree
 Python\Subtree of Another Tree
 Python\Trapping Rain Water
