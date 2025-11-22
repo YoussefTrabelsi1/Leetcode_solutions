@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Serialize and Deserialize Binary Tree
 Python\Subtree of Another Tree
 Python\Trapping Rain Water
 Python\Unique Paths
