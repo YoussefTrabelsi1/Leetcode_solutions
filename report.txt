@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Trapping Rain Water
 Python\Unique Paths
 Python\Valid Binary Search Tree
 Python\Valid Sudoku
