@@ -1,5 +1,4 @@
 Directories containing solution.py:
-Python\Valid Binary Search Tree
 Python\Valid Sudoku
 Python\Word Search II
 Python\Zigzag Conversion
