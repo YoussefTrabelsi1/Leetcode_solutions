@@ -1,4 +1,3 @@
 Directories containing solution.py:
-Python\Valid Sudoku
 Python\Word Search II
 Python\Zigzag Conversion
