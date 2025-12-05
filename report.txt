@@ -1,3 +1,2 @@
 Directories containing solution.py:
-Python\Word Search II
 Python\Zigzag Conversion
