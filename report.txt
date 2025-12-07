@@ -1,2 +1,0 @@
-Directories containing solution.py:
-Python\Zigzag Conversion
